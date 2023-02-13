@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icone {
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icone{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+header{
+    background-color:#07477b;
+}
