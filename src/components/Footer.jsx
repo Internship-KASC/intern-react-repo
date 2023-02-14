@@ -1,10 +1,9 @@
 import React from 'react';
-import { FaUserTie } from "react-icons/fa";
 import { BsGearFill, BsBuilding } from "react-icons/bs";
 import { RiRoadMapFill } from "react-icons/ri";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { MdEmail } from "react-icons/md";
-import { FaFacebook , FaTwitter , FaWhatsapp , FaYoutube ,FaInstagram} from "react-icons/fa";
+import { FaFacebook , FaTwitter , FaWhatsapp , FaYoutube ,FaInstagram, FaUserTie} from "react-icons/fa";
 import '../components/style-footer.css';
 
 const Footer = () => {
