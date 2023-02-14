@@ -13,11 +13,11 @@ const Footer = () => {
     <footer className='site-footer'>
       <div className="ft-row-1">
         <div className="ft-r1-col-1">
-          <h2 className="about"><a href='#'><FaUserTie className='icons'/>&nbsp;About</a></h2>
+          <h2 className="ft-about"><a href='#'><FaUserTie className='icons'/>&nbsp;About</a></h2>
           <p>We are a blooming startup company with promising ideas and talent</p>
         </div>
         <div className="ft-r1-col-2">
-          <h2 className="services"><a href="#"><BsGearFill className='icons'/>&nbsp;Services</a></h2>
+          <h2 className="ft-services"><a href="#"><BsGearFill className='icons'/>&nbsp;Services</a></h2>
           <ul>
             <li><a href="#">Client</a></li>
             <li><a href="#">Vendor</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="ft-r1-col-4">
-          <h2 className="contact"><BsBuilding className='icons'/>&nbsp;Contact</h2>
+          <h2 className="ft-contact"><BsBuilding className='icons'/>&nbsp;Contact</h2>
           <ul>
             <li><a href="#"></a><RiRoadMapFill className='icons'/>MyQuote Inc</li>
             <li><a href="#"></a>&emsp;No.21 Electronic City</li>
