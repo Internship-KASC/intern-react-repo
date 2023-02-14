@@ -3,22 +3,64 @@
     padding: 0;
 }
 
-.icone {
-    margin-bottom: 10px;
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
 }
 
-.row{
-    display: flex;
-    justify-content: flex-end;
+.logo{
+    color: green;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4px;
 }
 
-.icone{
+.logo strong{
+    color: black;
+}
+
+.inner-icone{
     display: flex;
-    margin-right: 40px;
-    margin-top: 10px;
-    gap: 20px;
+    column-gap: 50px;
+}
+
+.search-b input{
+    width: 550px;
+    height: 30px;
+    border: 2px solid rgb(238, 92, 14);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.search-b button{
+    border: 2px solid rgb(238, 92, 14);
+    border-radius: 20px;
+    height: 43px;
+    width: 110px;
+    background-color: rgb(238, 92, 14);
+    color: white;
+    font-size: large;
+}
+
+.ic-1 p{
+    font-weight: lighter;
+    font-size: small;
+}
+
+.ic-1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
 }
 
 header{
-    background-color:#07477b;
+    border-bottom: 1px;
+    border-bottom-color:gray ;
+    border-bottom-style:solid ;
 }
