@@ -1,4 +1,7 @@
 //import './App.css';
+import Header from '../src/components/Header';
+import Navbar from '../src/components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,7 +20,11 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header />
+      <Navbar />
+      <Footer />
     </div>
+
   );
 }
 
