@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { BsGearFill, BsBuilding } from "react-icons/bs";
 import { RiRoadMapFill } from "react-icons/ri";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook , FaTwitter , FaWhatsapp , FaYoutube ,FaInstagram, FaUserTie} from "react-icons/fa";
-import '../components/style-footer.css';
+import './style-footer.css';
 
 const Footer = () => {
   const today = new Date();
@@ -13,14 +14,14 @@ const Footer = () => {
     <footer className='site-footer'>
       <div className="ft-row-1">
         <div className="ft-r1-col-1">
-          <h2 className="about"><a href='#'><FaUserTie className='icons'/>&nbsp;About</a></h2>
+          <h2 className="about"><Link to="/"><FaUserTie className='icons'/>&nbsp;About</Link></h2>
           <p>We are a blooming startup company with promising ideas and talent</p>
         </div>
         <div className="ft-r1-col-2">
-          <h2 className="services"><a href="#"><BsGearFill className='icons'/>&nbsp;Services</a></h2>
-          <ul>
-            <li><a href="#">Client</a></li>
-            <li><a href="#">Vendor</a></li>
+          <h2 className="services"><Link to="/"><BsGearFill className='icons'/>&nbsp;Services</Link></h2>
+          <ul><link to="/"></link>
+            <li><Link to="/">Client</Link></li>
+            <li><Link to="/">Vendor</Link></li>
           </ul>
         </div>
         <div className="ft-r1-col-3">

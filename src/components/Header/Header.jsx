@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook , FaTwitter , FaWhatsapp , FaYoutube ,FaInstagram} from "react-icons/fa";
 import { IoLocationSharp, IoMail } from "react-icons/io5";
-import '../components/style-header.css'
+import './style-header.css'
 
 function Header() {
   return (
