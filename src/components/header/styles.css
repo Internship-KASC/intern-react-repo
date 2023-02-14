@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height:30px;
+    background-color: aqua;
+}
+.hh3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-radius: 2rem;
+    background-color: rgb(134, 231, 231);
+}
+.barmenu{
+    width: auto;
+    height: 70px;
+    background-color: aqua;
+    position:sticky;
+    border-top: 0.5px solid black;
+}
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+    float:right;
+    column-gap: 40px;
+    margin-top: 23px;
+}
+.submenu,.submenu1{
+    list-style-type: none;
+}
+.lsub{
+    display: none; 
+    position:absolute;
+    flex-direction: column;
+}
+.submenu1:hover>.lsub{
+    display: flex;
+    flex-direction: column;
+}
+.li1{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 3px;
+    margin-left: -25px;
+    background:red;
+    color:black;
+}
+.li2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 3px;
+    margin-left: 25px;
+    background:red;
+    color: black;
+    
+}
+li{
+    list-style-type: none;
+}
+.hee1,.hee2{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua; 
+    margin-top: 4px;
+}
+.hed1{
+    border-bottom: 1px solid black;
+}
+.hee2{
+    margin-left: 900px;
+    gap: 2rem;
+}
+.signup{
+    padding: 2px;
+    background-color: rgb(255, 94, 0);
+    color: black;
+    margin-right: 20px;
+    border-radius: 2rem;
+    border: none;
+}
+.img1{
+    width: 200px;
+    height: 60px;
+    border-radius: 1rem;
+    margin-right: 600px;
+    margin-top: 5px;
+}
