@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 98, 120);
+    justify-content: space-between;
+}
+
+.logo {
+        padding: 2rem;
+        margin-left: 2.5rem;
+}
+
+.logo h1{
+    color: greenyellow;
+    font-size: 2.5rem;
+}
+.logo h1 span {
+    color: lightcoral;
+}
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8rem;
+    padding: 2rem;
+    margin-right: 2.5rem;
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 50%;
+    color: aquamarine;
+}
+
+.nav-menu ul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: aquamarine;
+}
