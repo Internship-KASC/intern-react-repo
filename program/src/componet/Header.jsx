@@ -3,7 +3,7 @@ import '../componet/style.css'
 import{FaRegUser} from 'react-icons/fa'
 import{BiMessageRoundedDetail} from 'react-icons/bi'
 import{HiOutlineShoppingCart} from 'react-icons/hi'
-
+import{Link} from 'react-router-dom'
 
 const Header = () => {
   return (

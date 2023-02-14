@@ -12,7 +12,7 @@
 
 .cate:hover > .arrowup{
     color:rgb(238, 92, 14);
-    transition: 1s;
+    transition: 0.2s;
     rotate: 180deg;
     transform: translateY(2px);
 }

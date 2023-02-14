@@ -9,14 +9,14 @@ const Navgation = () => {
         <div className="row">
           <div className="cate">
             <div className="menu">
-            <TfiMenuAlt className="MenuAlt" />
+              <TfiMenuAlt className="MenuAlt" />
             </div>
             <p className='cat1'>Categories</p>
             <div className='arrowup'>
-            <BsChevronDown className='ChevronDown' />
+              <BsChevronDown className='ChevronDown' />
             </div>
             <div>
-            <span></span>
+              <span></span>
             </div>
           </div>
         </div>
