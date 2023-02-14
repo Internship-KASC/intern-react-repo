@@ -6,13 +6,13 @@ import {AiOutlineInstagram} from "react-icons/ai";
 import {AiFillTwitterCircle} from "react-icons/ai";
 import {AiOutlineGoogle} from "react-icons/ai";
 import {FaGripLinesVertical} from "react-icons/fa";
-import Myimg from '../images/you.jpg'
+import Myimg from '../images/you1.jpg'
 import './styles.css' ;
 
 const Header = () => {
   return (
     <div>
-        <header className='header'>
+        <header className='header' id='homee'>
             <ul className='hee1'>
                  <li> <SlLocationPin />Ellapalayam</li> 
                  <li> <FaGripLinesVertical/></li>
@@ -48,7 +48,10 @@ const Header = () => {
                     </li>
                     <li className="submenu">SETTINGS</li>
                 
-               <li> <button  className='signup' type="submit">Join Now</button></li>
+                        <li>  <a href='#'>
+                              <button className='signup'>Join now </button>
+                              </a>
+                    </li>
                </ul>
             </nav>
          </div>
