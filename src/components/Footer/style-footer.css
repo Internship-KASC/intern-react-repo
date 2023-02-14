@@ -75,3 +75,9 @@ p {
 .ft-r3-col-1 ul li {
     margin: 0.5rem;
 }
+
+@media (max-width:768px) {
+    .ft-row-1 {
+        display: none;
+    }
+}
