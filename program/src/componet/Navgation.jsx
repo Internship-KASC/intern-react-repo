@@ -1,33 +1,22 @@
 import React from 'react'
-import '../componet/Navgations.css'
-
+import '../componet/navgation.css'
+import { TfiMenuAlt } from 'react-icons/tfi'
+import { BsChevronDown } from 'react-icons/bs'
 const Navgation = () => {
   return (
     <div>
-        <nav>
-            <div className="container-1">
-                <div className="row-1">
-                  <div className="logo">
-                    <p><strong>my</strong>Quote</p>
-                  </div>
-                  <div className='col-1'>
-                  <ul className="navslied">
-                    <li className="navitem">Home</li>
-                    <li className="navitem">Product
-                      <ul className="subnav">
-                        <li className="sub-nav-item">Andriod</li>
-                        <li className="sub-nav-item">IOS</li>
-                        <li className="sub-nav-item">Intal</li>
-                      </ul>
-                    </li>
-                    <li className="navitem">Servies</li>
-                    <li className="navitem">about</li>
-                  </ul>
-                  </div>
-                </div>
-                
+      <div className="container">
+        <div className="row">
+          <div className="cate">
+            <TfiMenuAlt className="MenuAlt" />
+            <p className='cat1'>Categories</p>
+            <div className='arrowup'>
+            <BsChevronDown className='ChevronDown' />
             </div>
-        </nav>
+            <span></span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

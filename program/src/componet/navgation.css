@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cate{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cate:hover > .arrowup{
+    color:rgb(238, 92, 14);
+    transition: 1s;
+    rotate: 180deg;
+}
+.cate span{
+    border: 1px solid lightgray;
+}
+
+
+.cat:hover,
+.cat1:hover,
+.MenuAlt:hover{
+    color: rgb(238, 92, 14);
+}
+
+
