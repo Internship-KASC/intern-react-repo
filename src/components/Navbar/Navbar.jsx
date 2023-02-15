@@ -1,7 +1,9 @@
 import React ,{useState} from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
+import './MenuData';
 import {FaBars,FaTimes} from 'react-icons/fa';
+import { MenuData } from './MenuData';
 
 const Navbar = () => {
     const [icon, setIcon] = useState(false);
@@ -23,12 +25,19 @@ const Navbar = () => {
         <ul className={
             icon ? 'nav-menu active' : 'nav-menu'
         }>
-            <li><Link to='/' className='nav-links' onClick={closeSideDrawer}>Home</Link></li>
+            {MenuData.map((item,index) => {
+                return (
+                    <li key={index}>
+                        <Link to={item.url} className={item.cName} onClick={closeSideDrawer}>{item.title}</Link>
+                    </li>
+                )
+            })}
+            {/* <li><Link to='/' className='nav-links' onClick={closeSideDrawer}>Home</Link></li>
             <li><Link to='/About' className='nav-links' onClick={closeSideDrawer}>About Us</Link></li>
             <li><Link to='/Services' className='nav-links' onClick={closeSideDrawer}>Services</Link></li>
             <li><Link to='/Requirement' className='nav-links' onClick={closeSideDrawer}>Requirement</Link></li>
             <li><Link to='/Terms' className='nav-links' onClick={closeSideDrawer}>Terms of Use</Link></li>
-            <li><Link to='/Contact' className='nav-links' onClick={closeSideDrawer}>Contact-Us</Link></li>
+            <li><Link to='/Contact' className='nav-links' onClick={closeSideDrawer}>Contact-Us</Link></li> */}
         </ul>
     </nav>
     </div>
