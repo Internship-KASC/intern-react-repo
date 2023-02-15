@@ -12,7 +12,7 @@ const Navbar = () => {
         icon(false)
     }
   return (
-    <div>
+    <div className='nb'>
     <nav className='navbar'>
         <Link to='/' className='nav-logo' onClick={closeSideDrawer}><h1>My<span>Quote</span></h1></Link>
         <div className='menu-icon' onClick={handleClick}>
