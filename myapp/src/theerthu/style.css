@@ -1,0 +1,41 @@
+#topbar
+{
+background-color:rgb(2, 64, 64);
+height:55px;
+width: 700px;
+float:left;
+font-style: oblique;
+}
+h2
+{
+    color:beige;
+}
+body
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-right:2%;
+}
+form
+{
+    margin-left: 5%;
+    font-size: 18px;
+    flex-direction: column;
+}
+#container
+{
+    
+    height: 1450px;
+    width: 700px;         
+}
+.content
+{
+width: 700px;;
+height:90px;
+background-color:rgb(4, 70, 70);
+margin-top: 2%;
+font-size: 18px;
+color:brown;
+}
+

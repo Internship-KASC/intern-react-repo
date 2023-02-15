@@ -1,0 +1,177 @@
+#topbar
+{
+background-color:black;
+height:50px;
+width:100%;
+position: sticky;
+top: 0;
+}
+.header
+{
+  height: 50px;
+  width: 100%;
+  background-color: aquamarine;
+  padding-top: 10px;
+  text-align: center;
+}
+body
+{
+background-color:rgb(104, 167, 222);
+margin: 0;
+padding: 0;
+}
+#topbar ul
+{
+float:right;
+}
+#topbar ul li
+{
+display:inline;
+margin:0 30px 0 2px;
+padding: 0 30px 0 2px;
+border-right: 1px solid white;
+}
+#topbar ul li a
+{
+color:white;
+text-decoration:none;
+font-size:15px;
+}
+#container
+{
+width:80%;
+margin:0px auto;
+height: 530px;
+}
+#banner img
+{
+width:100%;
+padding-bottom:10px;
+margin:0px auto;
+height: 490px;
+}
+.col-container {
+    display: table;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+  }
+
+  .col,.col1,.col2 {
+    display: table-cell;
+    padding: 16px;
+  }
+  .col h2{
+    padding-left: 60px;
+  }
+  .col p{
+    padding-left: 50px;
+  }
+  .col1 h2{
+    padding-left: 200px;
+  }
+  .col1 p{
+    padding-left:80px ;
+  }
+  .col2 h2{
+    padding-left:80px;
+  }
+  #container1{
+    height:290px;
+    width:100%;
+    background-color:white;
+  }
+  #container1 h2{
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  #container1 img{
+    display:flex;
+    flex-direction: row;
+    height:200px;
+    width:200px;
+    border-radius: 2rem;
+}
+#image1{
+    margin: 10px;
+    padding-left: 50px;
+}
+#image2,#image3,#image4{
+    margin: 10px;
+    padding-left:70px;
+}
+.imgg{
+    display: flex;
+}
+.imgg li{
+    display: flex;
+    flex-direction: row;
+}
+#container2{
+  height:290px;
+  width:100%;
+  background-color:white;
+}
+#container2 img{
+  display:flex;
+  flex-direction: row;
+  height:200px;
+  width:200px;
+  border-radius: 2rem;
+}
+.imgg1{
+  display: flex;
+}
+.imgg1 li{
+  display: flex;
+  flex-direction: row;
+}
+#pic1
+{
+  margin:10px;
+  padding-left: 50px;
+}
+#pic2,#pic3,#pic4
+{
+  margin:10px;
+  padding-left: 70px;
+}
+#container3{
+  height:290px;
+  width:100%;
+  background-color:white;
+}
+#container3 img{
+  display:flex;
+  flex-direction: row;
+  height:200px;
+  width:200px;
+  border-radius: 2rem;
+}
+.imgg2{
+  display: flex;
+}
+.imgg2 li{
+  display: flex;
+  flex-direction: row;
+}
+#ph1
+{
+  margin:10px;
+  padding-left: 50px;
+}
+#ph2,#ph3,#ph4
+{
+  margin:10px;
+  padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
