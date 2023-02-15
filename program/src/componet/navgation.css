@@ -12,7 +12,6 @@
 
 .cate:hover > .arrowup{
     color:rgb(238, 92, 14);
-    transition: 0.2s;
     rotate: 180deg;
     transform: translateY(2px);
 }
@@ -24,3 +23,20 @@
 .cate:hover {
     color: rgb(238, 92, 14);
 }
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navItem{
+    display: flex;
+    list-style: none;
+}
+
+.Link{
+    text-decoration: none;
+    color: black;
+}
+
+
