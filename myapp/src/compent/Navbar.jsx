@@ -9,7 +9,7 @@ function Navbar () {
     const handleClick=()=>setClick(!click);
     const closeMobileMenu=()=>setClick(false);
     const showButton=()=>{
-        if(window.innerwidth<=960){
+        if(window.innerWidth<=960){
             setButton(false);
         }else{
             setButton(true);
@@ -27,8 +27,9 @@ function Navbar () {
    <>
    <nav className="navbar">
     <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
-            TRVL <FaTypo3/>
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu
+        }>
+            MSK <FaTypo3/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
             <i className>{click ? <FaTimes style={{color:'white'}}/>: <FaBars style={{color:'white'}}/>}</i>
@@ -47,6 +48,11 @@ function Navbar () {
             <li className='nav-item'>
                 <Link to='/Products' className='nav-links' onClick={closeMobileMenu}>
                     Products
+                </Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    Sign Up
                 </Link>
             </li>
             
