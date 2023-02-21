@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './home/Header'
-import Navgation from './home/Navgation'
+import './style/style.css'
+import Headers from './home/Headers'
 
 const Home = () => {
   return (
     <div>
-      <Header/>
-      <Navgation/>
+      <Headers/>
     </div>
   )
 }

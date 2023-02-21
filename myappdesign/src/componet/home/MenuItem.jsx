@@ -1,0 +1,1 @@
+export const MenuItem=[{name:'chennai'},{name:'Kovai'},{name:'Ooty'},{name:'Bengaluer'}];

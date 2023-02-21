@@ -1,0 +1,94 @@
+
+.row{
+    display: flex;
+    column-gap: 40px;
+}
+
+/*--logo--*/
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.logo-con{
+    font-size:30px;
+    font-weight: bolder;
+    color:black;
+}
+
+strong{
+    color: green;
+}
+
+/*--search Box--*/
+
+.searchbox{
+    display: flex;
+    margin-top: 25px;
+}
+
+/*--search text--*/
+
+.loc{
+    margin-right: 10px;
+}
+
+.location button{
+    padding: 5px;
+    height: 32px;
+    width: 120px;
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+.box input[type="text"]{
+    width: 200px;
+    height: 31px;
+    border: 1px solid black ;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    word-spacing: 10px;
+}
+
+.searchicon{
+    border: 1px solid black;
+    height: 31px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(5, 46, 158);
+}
+
+.searchicon button{
+    background-color: transparent;
+    border-style: none;
+}
+
+.sear{
+    color: white;
+    margin-top: 7px;
+    padding-right:5px ;
+    font-size:17px;
+}
+
+
+/*--Search Dropdownbox--*/
+
+.location input[type="button"]:invalid{
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.item_box{
+    display: block;
+    background-color:white;
+    cursor: pointer;
+}
+
+.item_box .item{
+    text-align: center;
+    padding: 5px;
+}
