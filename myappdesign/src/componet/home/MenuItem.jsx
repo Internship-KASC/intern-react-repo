@@ -1,1 +1,1 @@
-export const MenuItem=[{name:'chennai'},{name:'Kovai'},{name:'Ooty'},{name:'Bengaluer'}];
+export const MenuItem=[{name:'Home'},{name:'SERVICES'},{name:'faq'},{name:'about Us'}, {name:'Condut us'}];

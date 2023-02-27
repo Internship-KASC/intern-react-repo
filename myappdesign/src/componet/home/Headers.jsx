@@ -1,43 +1,42 @@
 import React from 'react'
 import '../home/header.css'
-import{GoSearch} from 'react-icons/go'
-import{IoLocationSharp} from 'react-icons/io5'
-import {MenuItem} from './MenuItem'
+import { MenuItem } from './MenuItem'
+import { Link } from 'react-router-dom'
 
 const Headers = () => {
   return (
-    <div className='continer'>
+    <div className='continer navbar'>
       <div className="row">
         <div className="logo">
           <p className="logo-con">
-            My<strong>Quotes</strong>
+            M<strong>Q</strong>
           </p>
         </div>
-        <div className="searchbox">
-          <div className="location">
-            <button type='button'><IoLocationSharp className='loc'/>Loaction</button>
-            <ul className="item_box">
+
+        <div className="nav">
+          <div className="continer">
+            <ul className="nav-list">
               {
-                MenuItem.map((item,index) => {
-                  return (
-                        <li className="item" key={index}>
-                            {item.name}
-                        </li>
-                  )})
+                MenuItem.map((item,index)=>{
+                  return(
+                    <>
+                    <li key={index} className='item'>{item.name}</li>
+                    </>
+                  )
+                })
               }
-              
             </ul>
           </div>
-          <div className="box">
-            <input type="text" name="search" id=""  placeholder='Search...'/>
-          </div>
-          <div className="searchicon">
-          <button><GoSearch className='sear'/></button>
-          </div>
+        </div>
+
+        <div className="logsin">
+          <button>Login</button>
+          <button>SignUp</button>
         </div>
       </div>
     </div>
   )
 }
+
 
 export default Headers
