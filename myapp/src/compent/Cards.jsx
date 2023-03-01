@@ -17,38 +17,51 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <div className="innerbox">
+             <CardItem 
               src={vino}
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
-              path='/services'
+              path='/Services'
+              
             />
+            </div>
+            <div className="innerbox">
             <CardItem
               src={pri}
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/services'
+              path='/Services'
             />
+            </div>
           </ul>
           <ul className='cards__items'>
+            <div className="innerbox">
             <CardItem
               src={kee}
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
-              path='/services'
+              path='/Services'
             />
+            </div>
+
+            <div className="innerbox">
             <CardItem
               src={swe}
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/Product'
             />
+            </div>
+
+            <div className="innerbox">
             <CardItem
               src={sne}
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/Sign-up'
             />
+            </div>
           </ul>
         </div>
       </div>

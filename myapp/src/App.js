@@ -1,21 +1,22 @@
-import React from 'react';
-import Navbar from './compent/Navbar';
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
-import Home from './compent/Home';
-
+import React, { useState } from "react";
+import './Fun.css';
+import { Login } from "./compent/Login";
+import { Register } from "./compent/Register";
 
 function App() {
-  return (<div>
-    <BrowserRouter>
-        <Navbar />
-          <Routes>
-          <Route path='/' element={<Home/>} />
-          
-          </Routes>
-    </BrowserRouter>       
-   </div>
+  const [currentForm, setCurrentForm] = useState('login');
+
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  }
+
+  return (
+    <div className="App">
+      {
+        currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
+      }
+    </div>
   );
 }
-
 
 export default App;
