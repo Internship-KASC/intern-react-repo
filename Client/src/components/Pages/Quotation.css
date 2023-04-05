@@ -1,0 +1,56 @@
+.formBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+}
+.form-quote {
+  display: flex;
+  gap: 2rem;
+  background-color: white;
+}
+table th,
+table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px 40px;
+  font-size: larger;
+  color: blue;
+  background-color: aquamarine;
+}
+table th {
+  color: black;
+}
+table {
+  border-collapse: collapse;
+}
+.edit-button {
+  color: white;
+  margin-right: 5px;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 2px;
+  border: none;
+}
+.delete-button {
+  color: white;
+  margin-right: 5px;
+  background-color: red;
+  border-radius: 10px;
+  padding: 2px;
+  border: none;
+}
+.edit-button:hover {
+  background-color: rgb(186, 129, 21);
+}
+.delete-button:hover {
+  background-color: rgb(174, 43, 43);
+}

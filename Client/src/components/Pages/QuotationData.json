@@ -1,0 +1,23 @@
+[
+  {
+    "sno": 1,
+    "VendorName": "Praveen",
+    "Item": "AC Service",
+    "Quantity": 10,
+    "UnitCost": 10
+  },
+  {
+    "sno": 2,
+    "VendorName": "Ajith",
+    "Item": "Cleaning",
+    "Quantity": 10,
+    "UnitCost": 10
+  },
+  {
+    "sno": 3,
+    "VendorName": "Mani",
+    "Item": "PC repair",
+    "Quantity": 10,
+    "UnitCost": 10
+  }
+]
