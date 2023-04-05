@@ -4,9 +4,10 @@ const express = require("express");
 // const chats = require("./Data/Data");
 const port = process.env.PORT || 80;
 const bodyParser = require("body-parser");
-const { connectDB } = require("./Database/dbConn");
-const dbconfig = require("./Database/db.config");
-const generateToken = require("./Database/generateToken");
+const { connectDB } = require("./db/connectDB");
+// const { connectDB } = require("./Database/dbConn");
+// const dbconfig = require("./Database/db.config");
+// const generateToken = require("./Database/generateToken");
 
 // app section
 const app = express();
@@ -15,7 +16,8 @@ const app = express();
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
 const credentials = require("./middlewares/credential");
-const router = require("./routes/userRoutes");
+const router = require("./routes/QuotationRoute");
+// const router = require("./routes/userRoutes");
 //const { notFound, errorHandler } = require("../middlewares/errorHandler");
 
 // database connection
@@ -47,6 +49,6 @@ app.use(cors(corsOptions));
 
 // listen section
 //app.listen(port, console.log(`Server is running on PORT ${port}`));
-app.listen(port, () => {
-  console.log(`Listening on port http://${dbconfig.HOST}:${dbconfig.PORT}`);
+const server = app.listen(process.env.PORT, () => {
+  console.log(`Server running on Port ${process.env.PORT}`);
 });
